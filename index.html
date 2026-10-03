@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio showcasing modern web development, software engineering projects, and technical skills.">
+  <meta name="theme-color" content="#0f172a">
+  <title>Basavaraj M P | Software Engineer & Developer</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <!-- Header / Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">Basavaraj<span>.dev</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm header-cta">Let's Talk</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for innovative projects & roles</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Engineering <span class="gradient-text">high-performance</span> digital products & systems
+          </h1>
+
+          <p class="hero-description">
+            Hello! I'm <strong>Basavaraj</strong>, a passionate software developer building elegant, accessible, and scalable web solutions. Focused on clean architecture, fluid user interfaces, and robust systems.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="https://github.com/basavarajamp11-cloud" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">99.9%</span>
+              <span class="stat-label">Code Quality</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="window-title">developer.config.ts</span>
+            </div>
+            <div class="window-body">
+              <pre><code><span class="token-keyword">const</span> <span class="token-variable">developer</span> = {
+  <span class="token-property">name</span>: <span class="token-string">"Basavaraj M P"</span>,
+  <span class="token-property">role</span>: <span class="token-string">"Software Engineer"</span>,
+  <span class="token-property">skills</span>: [
+    <span class="token-string">"JavaScript"</span>, <span class="token-string">"TypeScript"</span>,
+    <span class="token-string">"Python"</span>, <span class="token-string">"Node.js"</span>, <span class="token-string">"Cloud"</span>
+  ],
+  <span class="token-property">passion</span>: <span class="token-string">"Clean code & scalable systems"</span>,
+  <span class="token-property">availableForHire</span>: <span class="token-boolean">true</span>
+};
+
+<span class="token-comment">// Always shipping with purpose</span>
+<span class="token-variable">developer</span>.<span class="token-function">buildSomethingAwesome</span>();</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by curiosity, fueled by craft</h2>
+          <p class="section-subtitle">A quick introduction into who I am and how I approach problem solving</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio">
+            <div class="card-icon">⚡</div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a software engineer dedicated to crafting thoughtful, user-centric software. I bridge the gap between creative visual design and robust backend engineering, prioritizing performant code, maintainability, and accessibility.
+            </p>
+            <p>
+              Whether it's building interactive user interfaces, streamlining backend APIs, or deploying containerized applications, I enjoy solving tricky problems with elegant solutions.
+            </p>
+          </div>
+
+          <div class="about-card highlight-card">
+            <div class="card-icon">🎯</div>
+            <h3>Core Principles</h3>
+            <ul class="principles-list">
+              <li><strong>Performance First:</strong> Optimized asset delivery, smooth rendering, and minimal latency.</li>
+              <li><strong>Clean Architecture:</strong> Modular, well-tested code designed for long-term maintainability.</li>
+              <li><strong>User Centric:</strong> Intuitive experiences that feel delightful on mobile and desktop.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">Technical Skills & Technologies</h2>
+          <p class="section-subtitle">The tools, languages, and frameworks I use to bring ideas to life</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">🎨</span>
+              <h3>Frontend</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5 / Semantic Web</span>
+              <span class="skill-tag">Modern CSS3 / Flex / Grid</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React / Next.js</span>
+              <span class="skill-tag">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">⚙️</span>
+              <h3>Backend & APIs</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js / Express</span>
+              <span class="skill-tag">Python / FastAPI</span>
+              <span class="skill-tag">RESTful Architecture</span>
+              <span class="skill-tag">GraphQL</span>
+              <span class="skill-tag">PostgreSQL / MySQL</span>
+              <span class="skill-tag">MongoDB / Redis</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">🚀</span>
+              <h3>DevOps & Tooling</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git / GitHub Actions</span>
+              <span class="skill-tag">Docker Containers</span>
+              <span class="skill-tag">Linux / Bash CLI</span>
+              <span class="skill-tag">CI / CD Pipelines</span>
+              <span class="skill-tag">Cloud Platforms</span>
+              <span class="skill-tag">Testing (Jest / Vitest)</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">💡</span>
+              <h3>Engineering Practices</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Agile Development</span>
+              <span class="skill-tag">Web Accessibility (a11y)</span>
+              <span class="skill-tag">Performance Auditing</span>
+              <span class="skill-tag">Test-Driven Dev (TDD)</span>
+              <span class="skill-tag">System Architecture</span>
+              <span class="skill-tag">Code Review</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">A selection of engineering projects demonstrating full-stack problem solving</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-preview preview-cloud">
+              <div class="preview-badge">Featured</div>
+              <div class="preview-icon">📊</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+              </div>
+              <h3 class="project-title">CloudMetrics Observability Platform</h3>
+              <p class="project-summary">
+                A real-time telemetry dashboard providing latency tracking, server metrics visualization, and automated alert triggering for distributed microservices.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/basavarajamp11-cloud" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Source Code">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Code</span>
+                </a>
+                <a href="#contact" class="project-link" aria-label="View Live Project">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-preview preview-ai">
+              <div class="preview-badge">AI & Agents</div>
+              <div class="preview-icon">🤖</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Redis</span>
+              </div>
+              <h3 class="project-title">SmartFlow Workflow Automator</h3>
+              <p class="project-summary">
+                Autonomous task orchestrator that combines LLM reasoning with external APIs to automate code reviews, issue triaging, and documentation generation.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/basavarajamp11-cloud" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Source Code">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Code</span>
+                </a>
+                <a href="#contact" class="project-link" aria-label="View Live Project">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-preview preview-commerce">
+              <div class="preview-badge">Web App</div>
+              <div class="preview-icon">⚡</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Tailwind</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <h3 class="project-title">Nexus Design System & Storefront</h3>
+              <p class="project-summary">
+                A component library and ultra-fast headless e-commerce frontend scoring 100/100 on Google Lighthouse for performance and accessibility.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/basavarajamp11-cloud" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Source Code">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Code</span>
+                </a>
+                <a href="#contact" class="project-link" aria-label="View Live Project">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career</span>
+          <h2 class="section-title">Experience & Journey</h2>
+          <p class="section-subtitle">Highlights of my professional growth and continuous learning path</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">2024 — Present</span>
+              <h3 class="timeline-role">Senior Software Engineer</h3>
+              <h4 class="timeline-company">Full-Stack Solutions & System Architecture</h4>
+              <p>Leading the development of modern web applications, optimizing backend architectures, and driving adoption of modern engineering workflows.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">2022 — 2024</span>
+              <h3 class="timeline-role">Software Developer</h3>
+              <h4 class="timeline-company">Web & Cloud Technologies</h4>
+              <p>Developed responsive web interfaces, RESTful services, and automated CI/CD pipelines. Improved front-end performance by 35%.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">Continuous Learning</span>
+              <h3 class="timeline-role">Open Source Contributor & Lifelong Learner</h3>
+              <h4 class="timeline-company">Community & Side Projects</h4>
+              <p>Actively experimenting with new frameworks, agentic AI workflows, and contributing to open-source software libraries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's build something remarkable together</h2>
+          <p class="section-subtitle">Have a project in mind, an opportunity to discuss, or just want to connect?</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="info-details">
+                <h4>Email</h4>
+                <a href="mailto:basavarajamp11@gmail.com">basavarajamp11@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </div>
+              <div class="info-details">
+                <h4>GitHub</h4>
+                <a href="https://github.com/basavarajamp11-cloud" target="_blank" rel="noopener noreferrer">@basavarajamp11-cloud</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="info-details">
+                <h4>Location</h4>
+                <span>Available Globally (Remote / Relocation)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="John Doe">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Tell me about your project or opportunity..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <div id="formStatus" class="form-status" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-text">Basavaraj<span>.dev</span></span>
+        </a>
+        <p class="footer-text">Crafted with precision, modern CSS, and clean code.</p>
+      </div>
+
+      <div class="footer-right">
+        <div class="social-links">
+          <a href="https://github.com/basavarajamp11-cloud" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="mailto:basavarajamp11@gmail.com" aria-label="Email Me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+        <p class="copyright">&copy; <span id="currentYear"></span> Basavaraj M P. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
