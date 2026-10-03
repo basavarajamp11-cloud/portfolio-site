@@ -39,6 +39,18 @@ npx serve
 
 Then visit `http://localhost:8000` in your browser.
 
+## 📬 Contact Form Setup (Web3Forms)
+
+The contact form is configured to send emails using [Web3Forms](https://web3forms.com).
+
+1. Go to [https://web3forms.com](https://web3forms.com) and enter your email address to get your free access key.
+2. Open `index.html` and replace `YOUR_ACCESS_KEY_HERE` with your access key:
+   ```html
+   <input type="hidden" name="access_key" id="web3FormsAccessKey" value="YOUR_ACCESS_KEY_HERE">
+   ```
+3. Form submissions will now be emailed directly to your inbox with spam protection enabled.
+
 ## 📄 License
 
 MIT License. Feel free to use this template as inspiration for your own portfolio!
+

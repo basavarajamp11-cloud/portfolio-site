@@ -431,7 +431,16 @@
           </div>
 
           <div class="contact-form-container">
-            <form id="contactForm" class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="contact-form">
+              <!-- Web3Forms Access Key -->
+              <!-- Replace YOUR_ACCESS_KEY_HERE with your free key from https://web3forms.com -->
+              <input type="hidden" name="access_key" id="web3FormsAccessKey" value="YOUR_ACCESS_KEY_HERE">
+
+              <!-- Optional Web3Forms Customization -->
+              <input type="hidden" name="subject" value="New Portfolio Contact Message">
+              <input type="hidden" name="from_name" value="Portfolio Website">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
               <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required placeholder="John Doe">
